@@ -45,7 +45,7 @@ app.use(cors({
     : process.env.PRODUCTION_FRONTEND_URL,
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization', 'Accept', 'Range'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'Accept', 'Range', 'Cache-Control' ],
   exposedHeaders: ['Content-Range', 'Content-Length', 'Content-Type']
 }));
 app.use(morgan('dev'));
