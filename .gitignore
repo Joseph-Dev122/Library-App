@@ -1,0 +1,13 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables (critical for security!)
+.env
+
+# Uploaded files (if they're generated dynamically)
+uploads/
+
+
+
+
+
