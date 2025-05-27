@@ -1,6 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import morgan from 'morgan';
+import fs from 'fs-extra';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import mongoose from "mongoose";
